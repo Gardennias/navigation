@@ -1,0 +1,283 @@
+favicon: https://avatars.githubusercontent.com/u/16443796?v=4
+banner: /images/webstack_banner_cn.png
+
+logo:
+  expanded: /images/logo@2x.png
+  collapsed: /images/logo-collapsed@2x.png
+  dark: /images/logo_dark@2x.png
+
+flag:
+  - name: Chinese
+    default: true
+    icon: flag-cn
+    index: /index.html
+
+search: true
+
+userDefinedSearchData:
+  custom: false
+  thisSearch: https://www.baidu.com/s?wd=
+  thisSearchIcon: url(https://www.baidu.com/favicon.ico)
+  hotStatus: true
+  data:
+    - name: 百度
+      img: url(https://www.baidu.com/favicon.ico)
+      url: https://www.baidu.com/s?wd=
+
+githubCorner: '<a href="https://github.com/Gardennias/navigation" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>'
+
+expandAll: false
+menu:
+  - name: 个人常用
+    icon: far fa-star
+    config: myBlog
+  - name: 常用工具
+    icon: fas fa-tools
+    submenu:
+      - name: 办公工具
+        icon: fas fa-business-time
+        config: office
+      - name: 网盘搜索
+        icon: fas fa-search
+        config: cloudDiskSearch
+      - name: 学术
+        icon: fas fa-landmark
+        config: academe
+      - name: 英语
+        icon: fas fa-school
+        config: english
+      - name: 图床
+        icon: fas fa-images
+        config: drawing
+  - name: 自媒体
+    icon: far fa-play-circle
+    config: media
+  - name: 其他工具
+    icon: fas fa-plug
+    config: other
+
+myBlog:
+  - name: Gardennias's Blog
+    url: https://gardennias.github.io
+    img: https://avatars.githubusercontent.com/u/16443796?v=4
+    description: 我的个人博客，欢迎访问！
+  - name: 如何搭建本站
+    url: https://gardennias.github.io
+    img: https://avatars.githubusercontent.com/u/16443796?v=4
+    description: hexo-theme-webstack 网址导航搭建
+  - name: 必应壁纸浏览下载
+    url: https://bing.wdbyte.com/
+    img: https://bing.wdbyte.com/img/fav.jpg
+    description: 每天同步抓取当天的壁纸
+  - name: toolfk
+    url: https://www.toolfk.com/
+    img: https://www.toolfk.com/tools/images/icon.png
+    description: 开发在线工具箱
+
+cloudDiskSearch:
+  - name: 懒盘搜索
+    url: https://lzpan.com/
+    img: https://www.laisoyixia.com/media/image/logo/logo.png
+    description: 聚合搜索引擎
+  - name: 来搜一下
+    url: https://www.laisoyixia.com/
+    img: https://www.laisoyixia.com/media/image/logo/logo.png
+  - name: 学搜搜
+    url: http://www.zhaokeya.com/
+    img: http://www.zhaokeya.com/static/images/logo.png
+    description: www.zhaokeya.com www.sousuopu.com  www.xuesousou.net www.zhaokeya.com
+
+office:
+  - name: Convertio文件转换器
+    url: https://convertio.co/zh/
+    img: https://static.convertio.co/favicon.ico
+    description: 将文件转换成任何格式
+  - name: 错别字检测
+    url: http://www.biezi.com/
+    img: https://npm.elemecdn.com/hassan-assets/navi/alphabet/Letter_C.png
+    description: 为文章检查错别字
+  - name: 在线diff工具
+    url: https://www.diffchecker.com/
+    img: https://www.diffchecker.com/favicon.ico
+    description: 比较文本/图片/PDF找出差异
+  - name: Ilovepdf
+    url: https://www.ilovepdf.com/zh-cn/
+    img: https://www.ilovepdf.com/img/app-icon.png
+    description: PDF转换、解密
+  - name: Pdf24
+    url: https://tools.pdf24.org/zh/sort-pdf-pages/
+    img: https://tools.pdf24.org/static/img/pdf24.png?v=5cf19973
+    description: PDF重新排列转换工具
+
+academe:
+  - name: MedSci
+    url: http://www.medsci.cn/sci/
+    img: https://cache1.medsci.cn/images/favicon.ico
+    description: 期刊智能查询系统
+  - name: iData
+    url: https://www.cn-ki.net/
+    img: https://www.cn-ki.net/favicon.ico
+    description: iData知识检索—免费下载学术文献。
+  - name: 上海科技创新资源数据中心
+    url: http://www.sstir.cn/
+    img: http://www.sstir.cn/favicon.ico
+    description: 全球科技文献一站检索
+  - name: Lorefree 学术文库
+    url: http://paper.lorefree.com/
+    img: https://ebook2.lorefree.com/favicon.ico
+    description: 学术共享文库
+  - name: sci-hub
+    url: https://sci-hub.now.sh/
+    img: https://www.laisoyixia.com/media/image/logo/logo.png
+
+english:
+  - name: 新东方 IELTS
+    url: https://ieltscat.xdf.cn/
+    img: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAAA8CAMAAACzWLNYAAABJlBMVEUAAAAAiW0Ah3AAiG4Aim8AiW4Aj3AAiW32rAAAiW0AhngAiW32qwAAiW0AiWwAiW0AiWwAiW0AiW0AiW0Aim0Aim4AhWkAiW0AiW4AiW32qwAAiW0AiG3/qAAAiW32qwAAiG33qwD3qwD3qQAAiGv2qwD2qwAAiW0AiW32qwAAiW0AiW0AiW0AiWz3qwD3qwAAiW31qwAAiG0AiW0AiW0AiW0AiW0AiW32rAAAiG30qQAAiW0AiW32qwD3qwAAim0AiW73qwAAiGzyqAD2qwAAiW32qwAAiW0AiW32rAAAim33qwD2qwD1rAD1rAAAiW33rAD/rwD2qwD2qwD2qwD2rAAAiW78qgD2qwD2qwD2qwD2rAD3qwD1rAAAiWz2qgAAiW32qwAZNQXDAAAAYHRSTlMA8SCQMIAQ+ZDBBdCAcE+voIc3p2ANCY08KuXYdgPl0GVAKiAW+/fiUvPGvLhpYVpWTEpG6ODdy1NCFdS0n5mXe0YmEu3s2KKciX56czJpXDoIxrGmbxwN38vAjbeCfRqMY5VhAAAGZklEQVRo3rzY32riQBQG8C9jEjHFP9GaViqyF4UtdgvFthapYBEWS2/2DZbz/k/R6uTMSXOSkAj6u0vSOjme+WYGodyQZZBlesoCZ5SQ5SEjXJN2gTMakjVHxpoKjHByic/+k9X3WQSfirzj5BZUqg28U5EeTm5KQk+hPlmd4W0oIhwkLTZEI/EgFaPMjkrtJJxbFHigVPsWjbQp1UeZCyo1RZR+wBJF3ij1gUYMsRhH8auqeiLmHzudL3GUR+6SV6BNzGtG/lF/7gzMeJadIOOZvRrhW0Dn9qpWd//HPF4AHMRzGqhgPGU3xiVfnNkUzpIOnl++/c485iCeiTSp192bkRbsH8RkrY0xV2TdGeuFUiNTw4DYp6kUNWhSAGBEVoiDVbPVYU5siEpNmvQoy+4zDiQMHdSQuIHaUZ3Vsp6JVHCfX6gf7fWAtVDgmppUseo4c66mk9GWCrdkpaNeUWpmq/9XPe702O1mQtab6rE9jPbIerBN8XJHr5jYBgX6Feu6mEK5Kzh4+u6eHLyu1dmBx5X31p7rTmErChmXG4dMOvOugvjmetiy/hLrt3KuAUO1TGQrLuVJZ3r5IK6ogaHUV01CGlCpuXRmmwsiP6g92IbquNFTUfsAliVBNNRA58dR88nkvUr79flS6yKhkiBeUQMxMCbmRRVpCMAM6/IbG5a4IO7yQewGeS9ScpDjZ4+x98gLVRCFTLIpxCXfU0FU5LVW0D7VFyKG5PhQ+hI6VhTEGQqNybmF9ofYAkJqV7tlfLE3crObDH4dbs0BrPme2hER+ixxJcsCMvYZDjxiIfJiHUR+m032V5GN+5ulu4eJC6L1xYzV9CYIRMHVpRJpSIO6IGljOJhgWg6mNDWGJp6IvXnj2P//Mxoxs4NvyR566pzkSZad3TfvSzMlgjL3DdmivcztY+NLSxTiFm1RwAK/wvKptTE1FaqHsfx/mLi5bx7P7vpUDIOOxPOI3+3AacUCv8ECC2uj067H2+lKZMTXu099e9rCKBRCJMsP3nAMpg8+IZLiWfVAA4B926j+hbfBXyKXQiSrJ3p3DVEVvJnaEeJRVMAQIvbNayt7TwHa0cIFiMQJvjDuTLH92iNEuulBxp6NNMzQ2uPsBDio+pShbG3pTuwiObY6IsSp9JVCRvF0GF0TtwckzhSiKGXDlONJ+wmjDGxSiPxOmyJcANrqi846p+P5hJgwZuAmVhRwgiNawCaFGLVypTcYEEDUkr177wDgP4As3C4ieWf07hin2nCrsRQi/uCgfEMJyJbiEfR6/sB7fMMplEKkj+wZd4448sojxAO9wSkCjBx9hVHMGx5pZmXJwyaqI92tTUfcaieESPZHpwksmT6AYDkSLye+mfoJS80GcSVETilpoxCH2mk4QgUqt7hbMdR2vCYH7VRMTZekOx9kSQObEOI2dDovCjFzaxkeVumZuR9yZZHpK2qlAn3DXqlO98jxQ1+EEBcaMFinYO/F6A1TpoGCrb++QxIH6i8AY6P+FX6bK58WR4Egir/LQmBz2tsKTbBF2cCieBMhYUURQjRonJDNTMLQ3/9LbL/2T7vHGXOY3yH1uoJWdXc9/D7ewpdiNOJvLEXkXotn8XM+0NlK8xAAJNUhBw46UlbZFaRdWR6YkIdNoJRyuoRP5/rPCIaHlgk+zK/5h/laKk0FNIWOQQakaiLYs7FaWV4xkO9s8q8LuDr6kXlj/8IPYo34A0QGrC9jhqIBCzChl+QsgJDC2RiOY1elItuNw98TcOHSjwE0VPFiI4Zmwz5LS2AoUKHNHIoEODBG+I8X5spYALK7ewD2igTu8Ly33IgsQUoPGAtkAE4UB+DOWGNOyl0UKSxnZdjW2DE8wYjXQpFNOivwDiCheAMcxswlTJOYqRVmbHnavu5VbrS6LTMiEbthcFNboACGyzshVxYXPVHfscVjYp/4fW9qt8iIpO0ml4m+ACVFwSH24CpLCjKY0+lX3nR8ISL29Awj5ubO7qXZ/lRgn9aVY8QwYmsM7DQ5RGnON5Re/GLccBzmL2RcbsT30hQXklc3FrB07WCBZHZZgQAaX034GW3DfO+T5UaU5kiO47RsJQtM3CJoXiklehJ6g8J11Mi5BuycHz9nRPz5ZuBoictaE4OElCEjOV7CLIWh4lqgp9E6AWnDztEN3N4a08yUR7Ren2D5B2t7suBiehDWAAAAAElFTkSuQmCC
+    description: 雅思机考的练习网站，快速打分，答案解析，而且免费
+  - name: 老烤鸭雅思
+    url: http://www.laokaoya.com/
+    img: https://ieltscat.xdf.cn/favicon.ico
+    description: 资深雅思教师解析听说读写，定期发布最新雅思预测，是雅思DIY选手的好网站
+  - name: 雅思官网
+    url: https://ielts.neea.cn/
+    img: https://ielts.neea.cn/favicon.ico
+  - name: Virtualwritingtutor
+    url: https://virtualwritingtutor.com/
+    img: https://virtualwritingtutor.com/assets/favicon.ico
+    description: Grammar Check 语法改错
+  - name: Hemingwayapp 写作改善
+    url: http://www.hemingwayapp.com/
+    img: https://hemingwayapp.com/img/favicon/favicon-32x32.png
+    description: 英语写作改善
+  - name: Thesaurus 词汇改善
+    url: https://www.thesaurus.com/
+    img: https://www.thesaurus.com/0d297be7e698b98c9da8.png
+    description: 英语词汇改善
+
+drawing:
+  - name: 牛图网（无需登录）
+    url: https://niupic.com/
+    img: https://niupic.com/favicon.ico
+    description: 临时存储图片，图片消息群发等
+  - name: 路过图传（需登录）
+    url: https://imgse.com/
+    img: https://imgse.com/content/images/system/favicon_1587118523486_91617a.png
+    description: 上传接口 https://imgse.com/json 请求参数（form-data）
+  - name: PicX
+    url: https://picx.xpoet.cn/#/upload
+    img: https://picx.xpoet.cn/logo.png
+    description: 基于 GitHub API 开发的具有 CDN 加速功能的图床管理网站，用GitHub当图床
+ 
+media:
+  - name: Canva-可画
+    url: https://www.canva.cn/
+    img: https://static.canva.cn/static/images/favicon.ico
+    description: 封面制作
+  - name: 免费图片素材
+    url: https://www.pexels.com/zh-cn/
+    img: https://www.pexels.com/favicon.ico
+  - name: unDraw
+    url: https://undraw.co/illustrations
+    img: https://undraw.co/favicon.ico
+    description: 自定义主题色的插画网站
+  - name: OUCH
+    url: https://igoutu.cn/illustrations/style--pale
+    img: https://maxst.icons8.com/vue-static/ouch/seo/favicon.png
+    description: 可选择画风的插画网站
+  - name: 第一字体
+    url: https://www.diyiziti.com/
+    img: http://www.diyiziti.com/favicon.ico
+    description: 字体转换器转换，艺术字体生成器
+  - name: 剪映在线编辑器
+    url: https://www.capcut.cn/editor
+    img: https://lf3-lv-buz.vlabstatic.com/obj/image-lvweb-buz/ies/lvweb_client_web/static_page/lv_web.ico
+  - name: Bilibili封面提取
+    url: https://bilicover.magecorn.com/
+    img: https://www.bilibili.com/favicon.ico
+    description: 通过输入B站视频链接即可在线获取封面地址
+  - name: Wallpaper ABYSS
+    url: https://wall.alphacoders.com/
+    img: https://wall.alphacoders.com/favicon.ico
+    description: 壁纸的聚集地
+  - name: 讯飞配音
+    url: http://peiyin.xunfei.cn/
+    img: http://peiyin.xunfei.cn/themes/images/bigpeiyinge_favicon.ico
+  
+other:
+  - name: 电脑软件下载
+    url: https://mp.weixin.qq.com/mp/homepage?__biz=MzA4MjU4MTg2Ng==&hid=18&sn=2dccf8223c0bac443c2b8f260731278a&scene=18&uin=MzE0OTIxMTY2MA%3D%3D&key=b78619d7f695c342c5492538b6ce09d77f70ad609c6dc4be8eda65bd7e5df9da1a9f894412a7a747d3d1675e91e886306a2a261ae06a63a80ea671a8384ff733a19f2fe812c457e06921adce389629f2f9c48ede601f14296bd9b25d6ae02b7462d3dc5f5ec645ad41f975b0dcb7eefae484a5c455cc4e29165824ed5dc53733&devicetype=Windows+10+x64&version=6308011a&lang=zh_CN&ascene=7&session_us=gh_afcf475b274b&acctmode=0&pass_ticket=4ehven3UGafphq7RRtW3giMlbHLESZBo9OMS7Q6df5Oez611GzqpdFs%2B%2FOtrUMU4%2BW2zxIoBozYl193EGaLCeg%3D%3D&wx_header=1&fontgear=2
+    img: http://wx.qlogo.cn/mmhead/Q3auHgzwzM5cFyGGaN134T2OA6ibkGVicuycHQp1svwgIg0N1LUk1r9A/0
+    description: MAC/windows软件下载
+  - name: Lemon MAC电脑清理
+    url: https://lemon.qq.com/
+    img: https://lemon.qq.com/images/lemon/logo.png
+  - name: 算法可视化
+    url: https://visualgo.net
+    img: https://visualgo.net/img/favicon.png
+  - name: anyknew
+    url: https://www.anyknew.com
+    img: https://f0cdn.anyknew.com/web/img/icons/favicon-32x32.png
+    description: 实时热点新闻聚合
+  - name: Excalidraw
+    url: https://excalidraw.com/
+    img: https://excalidraw.com/favicon.ico
+    description: 虚拟白板绘图工具
+
+about:
+  url: /about
+  icon: far fa-heart
+  name: 关于本站
+
+aboutPage:
+  website:
+    head: 关于本站
+    html: '<blockquote><p>本站是<a href="https://github.com/Gardennias">Gardennias</a>基于<a href="https://hexo.io/">Hexo</a> 主题为 <a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStack</a>搭建。</p></blockquote>'
+  webmaster:
+    head: 关于站长
+    name: Gardennias
+    url: https://gardennias.github.io
+    img: https://avatars.githubusercontent.com/u/16443796?v=4
+    description: 单调才有趣
+    html: ''
+
+since: 2023
+
+busuanzi:
+  enable: true
+  position: sidebar # 'footer','sidebar'
+  pv: 本站总访问量$pv
+  uv: 本站总访客数$uv
+
+custom:
+  head: |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Gardennias/Personal-gallery/images/custom.css">
+  body: |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
+    <div class="bg"></div>
+    <div class="dimmer dim"></div>
+js:
+  header: /js/header.js
+  footer: /js/footer.js
+  jquery: /js/jquery-1.11.1.min.js
+  bootstrap: /js/bootstrap.min.js
+  TweenMax: /js/TweenMax.min.js
+  resizeable: /js/resizeable.min.js
+  joinable: /js/joinable.js
+  xenonApi: /js/xenon-api.min.js
+  xenonToggles: /js/xenon-toggles.min.js
+  xenonCustom: /js/xenon-custom.min.js
+  lozad: /js/lozad.min.js
+  html5shiv: /js/html5shiv.min.js
+  respond: /js/respond.min.js
+  busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+css:
+  hclonely: /css/hclonely.css
+  fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
+  linecons: /css/fonts/linecons/css/linecons.min.css
+  fontawesome: /css/fonts/fontawesome/css/all.min.css
+  bootstrap: /css/bootstrap.min.css
+  xenonCore: /css/xenon-core.min.css
+  xenonComponents: /css/xenon-components.min.css
+  xenonSkins: /css/xenon-skins.min.css
+  nav: /css/nav.min.css
