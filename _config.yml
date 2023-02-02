@@ -103,4 +103,5 @@ theme: webstack
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:Gardennias/navigation.git,publish
+  repo: git@github.com:Gardennias/navigation.git
+  branch: publish
