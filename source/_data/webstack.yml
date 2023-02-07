@@ -62,7 +62,7 @@ myBlog:
     img: https://avatars.githubusercontent.com/u/16443796?v=4
     description: 我的个人博客，欢迎访问！
   - name: 如何搭建本站
-    url: https://gardennias.github.io
+    url: https://gardennias.github.io/202302_hexo-theme-webstack-%E7%BD%91%E5%9D%80%E5%AF%BC%E8%88%AA%E6%90%AD%E5%BB%BA/
     img: https://avatars.githubusercontent.com/u/16443796?v=4
     description: hexo-theme-webstack 网址导航搭建
   - name: 必应壁纸浏览下载
@@ -73,6 +73,14 @@ myBlog:
     url: https://www.toolfk.com/
     img: https://www.toolfk.com/tools/images/icon.png
     description: 开发在线工具箱
+  - name: 移动端图标生成
+    url: https://icon.wuruihong.com/
+    img: https://icon.wuruihong.com/wrh/favicon-32x32.png
+    description: 移动应用图标/启动图生成工具，一键生成所有尺寸的应用图标/启动图
+  - name: 熊猫图片压缩
+    url: https://tinypng.com/
+    img: https://tinypng.com/images/favicon.ico
+    description: 压缩图片不压缩画质
 
 cloudDiskSearch:
   - name: 懒盘搜索
